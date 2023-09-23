@@ -131,7 +131,7 @@ input[type=button], input[type=submit], input[type=reset] {
   }
 
 
-/* ***************************** Utkarsh CSS **********************************
+/* ***************************** Utkarsh CSS ********************************** */
   :root {
     --main-theme-dark: #C62C2C;
     --main-theme-light: white;
@@ -410,4 +410,3 @@ body {
 .user-req-btn:hover {
     cursor: pointer;
 } 
-*/
