@@ -37,6 +37,14 @@ rrouter.get('/donate(.html)?', (req,res)=>{
     res.render('donate');  
 });
 
+rrouter.get('/map(.html)?', (req,res)=>{
+    res.render('map');  
+});
+
+rrouter.get('/list(.html)?', (req,res)=>{
+    res.render('list');  
+});
+
 rrouter.get('/request(.html)?', (req,res)=>{
     res.render('request');  
 });
