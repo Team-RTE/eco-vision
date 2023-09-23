@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="../css/style.css" />
+</head>
+
+<body>
+    <div id="n1" class="n1">
+        <div id="m_container" class="m_container">
+            <div id="lch" class="lch">
+                <div id="login_container" class="login_container">
+                    <div id="lt" class="lt">Login</div>
+                    <div id = "fm" class="fm">
+                        <div id = "fholder" class="fholder">
+                            <form id="loginf" class="loginf" action="/api/authCheck" method="post">
+                                <label for="uname">Username:</label><br><br>
+                                <input type="text" id="uname" name="uname"><br><br><br>
+                                <label for="passw">Password</label><br><br>
+                                <input type="password" id="passw" name="passw"><br><br><br>
+                                <input type="Submit" value="Submit">
+                            </form>
+                        </div>
+                    </div>
+                        <p><%= txt %> </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="l_container" class="l_container">
+            <button onclick="window.location.href='./reg.html'"">
+                Sign-Up
+            </button>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

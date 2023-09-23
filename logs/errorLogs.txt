@@ -1,0 +1,104 @@
+Sep 22, 2023, 3:17:15 PM   63ffecd3-9fc1-4e50-9420-6aba30a27230    Error	Not allowed by cors
+Sep 22, 2023, 3:17:15 PM   20acf1dd-c17e-4430-bbdc-f3310ad40946    Error	Not allowed by cors
+Sep 22, 2023, 3:18:55 PM   4b30a7df-1473-47f8-8be7-afea131c4527    Error	Not allowed by cors
+Sep 22, 2023, 4:31:47 PM   542ec0d4-f50e-464a-9887-437ceb6c2645    Error	ENOENT: no such file or directory, stat '/home/arceleven/Documents/web_dev_env/practice/node_pract/wserv/routes/views/index.html'
+Sep 22, 2023, 4:31:56 PM   a672ab92-b57b-40f8-b0c0-60f1a8ff9c14    Error	ENOENT: no such file or directory, stat '/home/arceleven/Documents/web_dev_env/practice/node_pract/wserv/routes/views/index.html'
+Sep 22, 2023, 4:32:52 PM   4ba2e13c-5113-449f-8f80-34dafc5c11c8    Error	ENOENT: no such file or directory, stat '/home/arceleven/Documents/web_dev_env/practice/node_pract/wserv/routes/views/index.html'
+Sep 22, 2023, 4:33:01 PM   16b42832-9da4-41cc-ab5f-0cd601537231    Error	ENOENT: no such file or directory, stat '/home/arceleven/Documents/web_dev_env/practice/node_pract/wserv/routes/views/index.html'
+Sep 23, 2023, 3:25:02 AM   1b1c2f2a-c850-4b56-9c65-d883553778e0    ReferenceError	Cannot access 'User' before initialization
+Sep 23, 2023, 3:25:06 AM   b8d4923d-890a-498b-bdc2-88a1f879e1cf    ReferenceError	Cannot access 'User' before initialization
+Sep 23, 2023, 3:25:28 AM   aabd098e-e68c-4aba-b75d-c0b02955a191    ReferenceError	Cannot access 'User' before initialization
+Sep 23, 2023, 3:25:51 AM   c986345b-5263-48a6-b188-1a28f4cb2c7f    ReferenceError	Cannot access 'User' before initialization
+Sep 23, 2023, 3:26:08 AM   e0d4f85e-a110-471b-a030-b16e6fdbd11f    ReferenceError	Cannot access 'User' before initialization
+Sep 23, 2023, 3:27:27 AM   6b0a62a0-a4fc-4ed4-9154-9ebad92d56c1    ReferenceError	Cannot access 'User' before initialization
+Sep 23, 2023, 3:28:10 AM   f47014ce-04e7-43a3-a691-8dc420ab4ec6    ReferenceError	Cannot access 'User' before initialization
+Sep 23, 2023, 3:28:20 AM   699f907c-28d1-40ca-89ef-3daa2c557c64    ReferenceError	Cannot access 'User' before initialization
+Sep 23, 2023, 3:29:13 AM   b949398d-cdf0-48a4-a41f-0a0f01a18e9e    ReferenceError	Cannot access 'User' before initialization
+Sep 23, 2023, 3:29:13 AM   ae68ce03-2dab-4540-810b-65c803caf59b    ReferenceError	Cannot access 'User' before initialization
+Sep 23, 2023, 3:29:14 AM   8f248a37-57d6-47f9-afc5-91d215efc4b3    ReferenceError	Cannot access 'User' before initialization
+Sep 23, 2023, 3:31:21 AM   735c30af-794a-49d6-bb67-395dc627b3f4    ReferenceError	Cannot access 'User' before initialization
+Sep 23, 2023, 3:31:29 AM   ba76dacc-8103-45db-8e0d-1a2bc02b09e0    ReferenceError	Cannot access 'User' before initialization
+Sep 23, 2023, 3:31:36 AM   417ccc2e-8c5a-4d18-9f5f-3623a735d078    ReferenceError	Cannot access 'User' before initialization
+Sep 23, 2023, 3:33:29 AM   d15f21a3-210b-4a68-a282-580e0991ad1c    ReferenceError	Cannot access 'User' before initialization
+Sep 23, 2023, 3:33:31 AM   f5af8034-95a6-479e-b846-c27010f1541b    ReferenceError	Cannot access 'User' before initialization
+Sep 23, 2023, 10:25:11 AM   adfdbd3f-6290-4d82-a43d-745f61edc494    Error	Failed to lookup view "../reg" in views directory "/home/arceleven/Documents/eco_vision/views"
+Sep 23, 2023, 10:25:13 AM   93febf15-c7f8-4d0a-ae1a-4846d724f793    Error	Failed to lookup view "../reg" in views directory "/home/arceleven/Documents/eco_vision/views"
+Sep 23, 2023, 10:25:40 AM   f1d9757d-f796-4ac7-87f3-8812997670b7    Error	Failed to lookup view "/reg" in views directory "/home/arceleven/Documents/eco_vision/views"
+Sep 23, 2023, 2:19:29 PM   0a0198a6-88e6-4d7b-b128-a59a7b2a3db5    Error	ENOENT: no such file or directory, stat '/home/arceleven/Documents/eco_vision/views/404.html'
+Sep 23, 2023, 2:19:36 PM   cb81f003-f8b2-41f7-b6f3-2fae5aa7291b    Error	ENOENT: no such file or directory, stat '/home/arceleven/Documents/eco_vision/views/404.html'
+Sep 23, 2023, 2:20:12 PM   e6eda922-2cea-4a54-8d74-fae829d8f0aa    Error	ENOENT: no such file or directory, stat '/home/arceleven/Documents/eco_vision/views/404.html'
+Sep 23, 2023, 2:20:14 PM   b5eb45ce-c072-4cfb-b034-7d83334399f5    Error	ENOENT: no such file or directory, stat '/home/arceleven/Documents/eco_vision/views/404.html'
+Sep 23, 2023, 2:30:27 PM   1390a4e5-d698-4b52-ac12-159a4c8a7e98    Error	ENOENT: no such file or directory, stat '/home/arceleven/Documents/eco_vision/views/404.html'
+Sep 23, 2023, 2:59:20 PM   a8f900a8-5c49-474e-ba75-71ba5ea628a0    ReferenceError	/home/arceleven/Documents/eco_vision/views/index.ejs:30
+    28|                     </div>
+    29|                     
+ >> 30|                     <% if(Flag == false) { %>
+    31|                         <p>wrong uername or password!</p>
+    32|                     <% } %>
+    33| 
+
+Flag is not defined
+Sep 23, 2023, 3:04:25 PM   9ae389c1-d857-4598-807d-bfdae43c7440    Error	Could not find matching close tag for "<%".
+Sep 23, 2023, 3:05:39 PM   c09d5262-02fe-4c10-82b7-3c5b93dfd4ab    ReferenceError	/home/arceleven/Documents/eco_vision/views/index.ejs:30
+    28|                     </div>
+    29|                     
+ >> 30|                     <% if(Flag == false) { %>
+    31|                         <p>wrong username or password!</p>
+    32|                     <% } %>
+    33| 
+
+Flag is not defined
+Sep 23, 2023, 3:05:39 PM   339363e2-d963-4857-9a3e-5bfa6ca34954    ReferenceError	/home/arceleven/Documents/eco_vision/views/index.ejs:30
+    28|                     </div>
+    29|                     
+ >> 30|                     <% if(Flag == false) { %>
+    31|                         <p>wrong username or password!</p>
+    32|                     <% } %>
+    33| 
+
+Flag is not defined
+Sep 23, 2023, 3:10:57 PM   d66cb96c-f9d6-4ada-8c59-758be9aae40a    ReferenceError	/home/arceleven/Documents/eco_vision/views/index.ejs:30
+    28|                     </div>
+    29|                     
+ >> 30|                     <%= Flag %>
+    31|                     <% if(Flag == false) { %>
+    32|                         <p>wrong username or password!</p>
+    33|                     <% } %>
+
+Flag is not defined
+Sep 23, 2023, 3:12:44 PM   7bde8a85-a8d6-4745-ac80-35427af6325b    ReferenceError	/home/arceleven/Documents/eco_vision/views/index.ejs:30
+    28|                     </div>
+    29|                     
+ >> 30|                     <%= Flag %>
+    31|                     <% if(Flag == false) { %>
+    32|                         <p>wrong username or password!</p>
+    33|                     <% } %>
+
+Flag is not defined
+Sep 23, 2023, 3:15:13 PM   a8424df6-3e3e-45b8-aa56-fb8aa2a880cf    ReferenceError	/home/arceleven/Documents/eco_vision/views/index.ejs:29
+    27|                         </div>
+    28|                     </div>
+ >> 29|                         <p><%= txt %></p>
+    30|                 </div>
+    31|             </div>
+    32|         </div>
+
+txt is not defined
+Sep 23, 2023, 3:19:12 PM   8835b7d8-d92c-4ba4-b690-9ddf233f8c56    ReferenceError	/home/arceleven/Documents/eco_vision/views/index.ejs:31
+    29| 
+    30|                     <% if(typeof(txt)!=undefined) { %>
+ >> 31|                         <p><%= txt %></p>
+    32|                     <% } %>
+    33|                 </div>
+    34|             </div>
+
+txt is not defined
+Sep 23, 2023, 3:19:15 PM   6aa42b79-7802-4cad-b85b-211d54ce40d5    ReferenceError	/home/arceleven/Documents/eco_vision/views/index.ejs:31
+    29| 
+    30|                     <% if(typeof(txt)!=undefined) { %>
+ >> 31|                         <p><%= txt %></p>
+    32|                     <% } %>
+    33|                 </div>
+    34|             </div>
+
+txt is not defined
