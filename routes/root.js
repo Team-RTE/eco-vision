@@ -21,8 +21,8 @@ rrouter.get('/reg(.html)?', (req,res)=>{
     res.render('reg');   
 });
 
-rrouter.get('/new-page(.html)?', (req,res)=>{
-    res.render('new-page');  
+rrouter.get('/template(.html)?', (req,res)=>{
+    res.render('template');  
 });
 
 
@@ -68,7 +68,7 @@ rrouter.post('/api/authCheck', (req,res)=>{
 
         if(flag==true){
             console.log(auth, "has logged in!");
-            res.render('new-page')
+            res.redirect('/template');
         }else{
             res.render('index',{txt:'wrong username or password!'});
         }
