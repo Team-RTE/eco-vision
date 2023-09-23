@@ -1,4 +1,6 @@
 import mongoose from "mongoose";
+
+
 const Schema = mongoose.Schema;
 
 const userSchema = new Schema({
@@ -30,6 +32,19 @@ const userSchema = new Schema({
     age: {
         type: String,
         required: true
+    },
+
+    coord:{
+
+        long:{
+            type: Number,
+            required: true
+        },
+
+        lat:{
+            type: Number,
+            required: true
+        }
     }
 }, {timestamps:true});
 

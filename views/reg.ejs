@@ -8,6 +8,39 @@
     <link rel="stylesheet" href="../css/style.css" />
   </head>
 
+  <script>
+
+    const options = {
+      enableHighAccuracy: false,
+      timeout: 5000,
+      maximumAge: Infinity
+    };
+    function go(){
+        if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(function(position) {
+          const lat = position.coords.latitude;
+          const long = position.coords.longitude;
+          console.log(`Latitude: ${lat}, Longitude: ${long}`);
+
+          fetch('/api/addLoc', {
+            method: 'POST',
+            body: JSON.stringify({
+              latitude:lat,
+              longitude:long,
+            }),
+            headers: {
+              'Content-type': 'application/json; charset=UTF-8',
+            }
+          })
+
+        }, function error(err) {console.warn(`ERROR(${err.code}): ${err.message}`);
+        }, options);
+      } else {
+        console.log("Geolocation is not supported by this browser.");
+      }
+    }
+  </script>
+
   <body>
     <div id="n1" class="n1">
       <div id="m_container" class="m_container">
@@ -16,6 +49,7 @@
             <div id="lt" class="lt">Sign-Up</div>
             <div id="fm" class="fm">
               <div>
+                <button onclick="go()">Get Location</button>
                 <form
                   id="loginf"
                   class="loginf"
@@ -34,7 +68,7 @@
                   <input type="text" id="addr" name="addr" /><br />
                   <label for="age">Age</label>
                   <input type="text" id="age" name="age" /><br />
-                  <input type="submit" value="Submit" />
+                  <input type="submit" value="Submit"/>
                 </form>
               </div>
             </div>
