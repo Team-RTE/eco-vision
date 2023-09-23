@@ -19,28 +19,28 @@
       <div class="sidebar-links-div">
         <div class="link-div">
           <div class="sidebar-img-div">
-            <img src="./img/user-white.png" class="sidebar-img">
+            <img src="./img/user.png" class="sidebar-img">
           </div>
-          <a href="profile">My Profile</a>
+          <a href="login.html">My Profile</a>
         </div>
 
         <div class="link-div">
           <div class="sidebar-img-div">
-            <img src="./img/user-white.png" class="sidebar-img">
+            <img src="./img/user.png" class="sidebar-img">
           </div>
           <a href="dash.html">Notifications</a>
         </div>
 
         <div class="link-div">
           <div class="sidebar-img-div">
-            <img src="./img/user-white.png" class="sidebar-img">
+            <img src="./img/user.png" class="sidebar-img">
           </div>
           <a href="about.html">About Us</a>
         </div>
 
         <div class="link-div">
           <div class="sidebar-img-div">
-            <img src="./img/user-white.png" class="sidebar-img">
+            <img src="./img/user.png" class="sidebar-img">
           </div>
           <a href="contact.html">Contact Us</a>
         </div>
@@ -71,22 +71,18 @@
       </header>
       
       <main class="main-div">
-<<<<<<< HEAD:views/donate.ejs
-        
-=======
 
         <div id="myMap" class="myMap">
 
         </div>
 
->>>>>>> b2:views/template.ejs
       </main>
   
       <footer class="footer" id="footer">
         <div class="bot-bar">
-          <button class="bot-btn" id="js-bot-btn1" onclick="goToPage(`temp`)">Home</button>
-          <button class="bot-btn" id="js-bot-btn2" onclick="goToPage(`donate`)">Donate</button>
-          <button class="bot-btn" id="js-bot-btn2" onclick="goToPage(`request`)">Request</button>
+          <button class="bot-btn" id="js-bot-btn1">Home</button>
+          <button class="bot-btn" id="js-bot-btn2">Donate</button>
+          <button class="bot-btn" id="js-bot-btn2">Request</button>
         </div>
       </footer>
     </div>
@@ -96,20 +92,16 @@
 
       let width = window.matchMedia("(min-width: 700px)");
 
-      if(width.matches) {
-          document.getElementById("mySidebar").style.width = "250px";
-      }
-      else {
-          document.getElementById("mySidebar").style.width = "50vw";
-      }
+        if(width.matches) {
+            document.getElementById("mySidebar").style.width = "250px";
+        }
+        else {
+            document.getElementById("mySidebar").style.width = "50vw";
+        }
       }
 
       function closeNav() {
-      document.getElementById("mySidebar").style.width = "0";
-      }
-
-      function goToPage(pname) {
-      location.replace(`${pname}`);
+        document.getElementById("mySidebar").style.width = "0";
       }
     </script>
     <script type='text/javascript'
