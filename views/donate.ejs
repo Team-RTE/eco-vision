@@ -71,7 +71,15 @@
       </header>
       
       <main class="main-div">
+<<<<<<< HEAD:views/donate.ejs
         
+=======
+
+        <div id="myMap" class="myMap">
+
+        </div>
+
+>>>>>>> b2:views/template.ejs
       </main>
   
       <footer class="footer" id="footer">
@@ -99,11 +107,59 @@
       function closeNav() {
       document.getElementById("mySidebar").style.width = "0";
       }
+<<<<<<< HEAD:views/donate.ejs
 
       function goToPage(pname) {
       location.replace(`${pname}`);
       }
+=======
+>>>>>>> b2:views/template.ejs
     </script>
+    <script type='text/javascript'
+    src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=AgiYqPQ8XPpE8-jLEE-W3Xz6yTrYosqe8dCqIdEBL-oWBZ6VWUHYhxziThSZ2lbM' 
+    async defer></script>
+    <script type='text/javascript'>
+      function GetMap()
+      {
+
+        //user location
+        let cent = new Microsoft.Maps.Location(12.9692, 79.1559);
+          
+        var map = new Microsoft.Maps.Map('#myMap',{
+            center: cent,
+            zoom: 17
+          });
+
+        //user Pushpin
+        var myPin = new Microsoft.Maps.Pushpin(cent, {
+            icon: './img/user-min.svg',
+            anchor: new Microsoft.Maps.Point(17, 17)
+        });
+        //Add the user pushpin to the map
+        map.entities.push(myPin);
+
+        //func for adding nearby pushpins
+          let p1 = new Microsoft.Maps.Location(12.9704, 79.1557);
+          let p2 = new Microsoft.Maps.Location(12.9692, 79.1544);
+          let p3 = new Microsoft.Maps.Location(12.9707, 79.1570);
+          let p4 = new Microsoft.Maps.Location(12.9688, 79.1560);
+
+          let locs = [p1,p2,p3,p4];
+
+          for(let i = 0; i<locs.length; i++){
+
+            var pin = new Microsoft.Maps.Pushpin(locs[i], {
+              icon: './img/blood.png',
+              anchor: new Microsoft.Maps.Point(17, 17)
+            });
+      
+            map.entities.push(pin);
+          }
+
+
+      }
+      </script>
+
 
   </body>
 </html>
