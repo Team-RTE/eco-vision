@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+    <link rel="stylesheet" href="./styles/styles.css">
+
+    <title>Blood Donation</title>
+  </head>
+
+  <body>
+
+    <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+
+      <div class="sidebar-links-div">
+        <div class="link-div">
+          <div class="sidebar-img-div">
+            <img src="./img/user.png" class="sidebar-img">
+          </div>
+          <a href="login.html">My Profile</a>
+        </div>
+
+        <div class="link-div">
+          <div class="sidebar-img-div">
+            <img src="./img/user.png" class="sidebar-img">
+          </div>
+          <a href="dash.html">Notifications</a>
+        </div>
+
+        <div class="link-div">
+          <div class="sidebar-img-div">
+            <img src="./img/user.png" class="sidebar-img">
+          </div>
+          <a href="about.html">About Us</a>
+        </div>
+
+        <div class="link-div">
+          <div class="sidebar-img-div">
+            <img src="./img/user.png" class="sidebar-img">
+          </div>
+          <a href="contact.html">Contact Us</a>
+        </div>
+      </div>
+
+    </div>
+
+    
+    <div id="website-div" class="website-div">
+      
+      <header class="header" id="header">
+        <div class="top-bar">
+          <div class="profile-pic">
+            <button class="profile-pic-btn" id="profile-pic-btn" ><img class="user-pic" src="./img/user-white.png"></button>
+          </div>
+  
+          <div class="profile-info"></div>
+          
+          <div class="nav-btn-div" onclick="openNav()">
+            <a href="#" class="nav">
+              <div class="one"></div>
+              <div class="two"></div>
+              <div class="three"></div>
+           </a>
+          </div>
+  
+        </div>
+      </header>
+      
+      <main class="main-div">
+        <div class="home-page-div">
+          <div id="user-info-div" class="user-info-div"></div>
+
+          <div id="home-img-div" class="home-img-div">
+            <img src="./img/img1.jpg" class="home-img">
+          </div>
+
+          <div class="user-req-btn-div">
+            <div class="user-req-btn donate-bld-btn">
+
+            </div>
+
+            <div class="user-req-btn req-bld-btn">
+               
+            </div>
+          </div>
+
+        </div>
+      </main>
+  
+      <footer class="footer" id="footer">
+        <div class="bot-bar">
+          <button class="bot-btn" id="js-bot-btn1">Home</button>
+          <button class="bot-btn" id="js-bot-btn2">Donate</button>
+          <button class="bot-btn" id="js-bot-btn2">Request</button>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      function openNav() {
+
+      let width = window.matchMedia("(min-width: 700px)");
+
+        if(width.matches) {
+            document.getElementById("mySidebar").style.width = "250px";
+        }
+        else {
+            document.getElementById("mySidebar").style.width = "50vw";
+        }
+      }
+
+      function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+      }
+
+    </script>
+
+  </body>
+</html>
