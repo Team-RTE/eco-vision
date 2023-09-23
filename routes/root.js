@@ -25,6 +25,21 @@ rrouter.get('/template(.html)?', (req,res)=>{
     res.render('template');  
 });
 
+rrouter.get('/profile(.html)?', (req,res)=>{
+    res.render('profile');  
+});
+
+rrouter.get('/temp(.html)?', (req,res)=>{
+    res.render('temp');  
+});
+
+rrouter.get('/donate(.html)?', (req,res)=>{
+    res.render('donate');  
+});
+
+rrouter.get('/request(.html)?', (req,res)=>{
+    res.render('request');  
+});
 
 //mongodb routes
 import { User } from '../models/user.js';
