@@ -49,6 +49,8 @@ rrouter.get('/list(.html)?', (req,res)=>{
     res.render('list');  
 });
 
+
+
 rrouter.get('/request(.html)?', (req,res)=>{
     res.render('request');  
 });
@@ -114,7 +116,7 @@ rrouter.post('/api/authCheck', (req,res)=>{
 
         if(flag==true){
             console.log(auth, "has logged in!");
-            res.redirect('/map');
+            res.redirect('/temp');
         }else{
             res.render('index',{txt:'wrong username or password!'});
         }

@@ -471,6 +471,10 @@ body {
     cursor: pointer;
 } 
 
+.user-req-btn:active {
+    background-color: #df5a5a;
+}
+
 
 .ubox{
     width: 98%;
@@ -550,5 +554,15 @@ body {
     height: 3vh;
 
 
+}
+
+.ubutton a:link{
+    color: white;
+    text-decoration: none;
+}
+
+.ubutton a:visited{
+    color: white;
+    text-decoration: none;
 }
 
