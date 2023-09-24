@@ -21,6 +21,10 @@ rrouter.get('/reg(.html)?', (req,res)=>{
     res.render('reg');   
 });
 
+rrouter.get('/api/reg(.html)?', (req,res)=>{
+    res.render('reg');   
+});
+
 rrouter.get('/template(.html)?', (req,res)=>{
     res.render('template');  
 });
@@ -45,15 +49,34 @@ rrouter.get('/request(.html)?', (req,res)=>{
 import { User } from '../models/user.js';
 
 //route for adding a user to db
+
+let la;
+let lo;
+
+rrouter.post('/api/addLoc', (req,res)=>{
+
+    lo = req.body.longitude;
+    la = req.body.latitude;
+
+    console.log(lo, la);
+});
+
 rrouter.post('/api/addUser', (req,res)=>{
+
     const user = new User({
         username: req.body.uname,
         password: req.body.passw,
         blood: req.body.bloodt,
         phone: req.body.phn,
         address:req.body.addr,
-        age:req.body.age
+        age:req.body.age,
+        coord:{
+            long: lo,
+            lat:  la
+        }
     });
+
+    console.log(user);
 
     user.save().then((result)=>{
         res.render('index',{txt:''});
