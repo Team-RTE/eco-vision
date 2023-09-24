@@ -34,7 +34,7 @@ rrouter.get('/profile(.html)?', (req,res)=>{
 });
 
 rrouter.get('/temp(.html)?', (req,res)=>{
-    res.render('temp');  
+    res.render('temp', {name:auth});  
 });
 
 rrouter.get('/donate(.html)?', (req,res)=>{

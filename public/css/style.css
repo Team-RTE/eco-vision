@@ -394,6 +394,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: rgb(241, 241, 241);
+    color: black;
 }
 
 .home-page-div {
@@ -406,6 +407,10 @@ body {
 }
 
 .user-info-div {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     top: -1.5%;
     width: 90%;
@@ -414,7 +419,7 @@ body {
     background-color: white;
     box-shadow: 1px 1px 8px rgb(0, 0, 0, 0.2);
     margin-bottom: 2%;
-    
+    font-size: 6vw;    
 }
 
 .home-img-div {
@@ -442,10 +447,15 @@ body {
 }
 
 .user-req-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 50%;
     height: 25%;
     background-color: var(--main-theme-dark);
     border-radius: 10px;
+    color: white;
+    font-size: 6vw;
 }
 
 .user-req-btn:hover {
