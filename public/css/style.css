@@ -478,7 +478,7 @@ body {
 
 .ubox{
     width: 98%;
-    height: 170px;
+    height: 190px;
     border: 1px;
     border-radius: 12px;
     border-style: solid;
@@ -521,19 +521,18 @@ body {
 }
 
 .uinfo p{
-    margin: 2vw;
+    line-height: 3.5vh;
 }
 
 .p1{
-    font-size: 5vw;
+    font-size: 2vh;
 }
-
 .p2{
-
-
+    font-size: 1.8vh;
 }
 
 .p3{
+    font-size: 1.5vh;
     color: gray;
 }
 
@@ -551,7 +550,7 @@ body {
     border: none;
     width: 50%;
     color: white;
-    height: 3vh;
+    height: 25px;
 
 
 }
