@@ -394,6 +394,16 @@ body {
     justify-content: center;
     align-items: center;
     background-color: rgb(241, 241, 241);
+    color: black;
+}
+
+.nlist{
+    align-items: start;
+    padding-top: 2%;
+
+    display: block;
+
+    overflow:scroll;
 }
 
 .home-page-div {
@@ -406,6 +416,10 @@ body {
 }
 
 .user-info-div {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     top: -1.5%;
     width: 90%;
@@ -414,7 +428,7 @@ body {
     background-color: white;
     box-shadow: 1px 1px 8px rgb(0, 0, 0, 0.2);
     margin-bottom: 2%;
-    
+    font-size: 6vw;    
 }
 
 .home-img-div {
@@ -442,12 +456,113 @@ body {
 }
 
 .user-req-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 50%;
     height: 25%;
     background-color: var(--main-theme-dark);
     border-radius: 10px;
+    color: white;
+    font-size: 6vw;
 }
 
 .user-req-btn:hover {
     cursor: pointer;
 } 
+
+.user-req-btn:active {
+    background-color: #df5a5a;
+}
+
+
+.ubox{
+    width: 98%;
+    height: 170px;
+    border: 1px;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #9797978d;
+    background-color: white;
+    box-shadow: 1px 2px 5px gray;
+
+    margin-bottom: 10px;
+
+    margin-left: 2px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.uimg img{
+    width: 50px;
+}
+
+.uimg{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.uholder{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.uinfo{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.uinfo p{
+    margin: 2vw;
+}
+
+.p1{
+    font-size: 5vw;
+}
+
+.p2{
+
+
+}
+
+.p3{
+    color: gray;
+}
+
+.ubutton{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ubutton button{
+    background-color: rgb(0, 210, 0);
+    border-radius: 12px;
+    border: none;
+    width: 50%;
+    color: white;
+    height: 3vh;
+
+
+}
+
+.ubutton a:link{
+    color: white;
+    text-decoration: none;
+}
+
+.ubutton a:visited{
+    color: white;
+    text-decoration: none;
+}
+

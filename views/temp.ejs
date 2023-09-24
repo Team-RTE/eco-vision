@@ -28,21 +28,21 @@
           <div class="sidebar-img-div">
             <img src="./img/user-white.png" class="sidebar-img">
           </div>
-          <a href="dash.html">Notifications</a>
+          <a href="profile">Notifications</a>
         </div>
 
         <div class="link-div">
           <div class="sidebar-img-div">
             <img src="./img/user-white.png" class="sidebar-img">
           </div>
-          <a href="about.html">About Us</a>
+          <a href="profile">About Us</a>
         </div>
 
         <div class="link-div">
           <div class="sidebar-img-div">
             <img src="./img/user-white.png" class="sidebar-img">
           </div>
-          <a href="contact.html">Contact Us</a>
+          <a href="profile">Contact Us</a>
         </div>
       </div>
 
@@ -72,19 +72,21 @@
       
       <main class="main-div">
         <div class="home-page-div">
-          <div id="user-info-div" class="user-info-div"></div>
+          <div id="user-info-div" class="user-info-div">
+            <p>Welcome <%= name %> !</p>
+          </div>
 
           <div id="home-img-div" class="home-img-div">
-            <img src="./img/img1.jpg" class="home-img">
+            <img src="./img/img1.png" class="home-img">
           </div>
 
           <div class="user-req-btn-div">
-            <div class="user-req-btn donate-bld-btn">
-
+            <div class="user-req-btn donate-bld-btn" onclick="goToPage(`map`)">
+              Donate
             </div>
 
-            <div class="user-req-btn req-bld-btn">
-               
+            <div class="user-req-btn req-bld-btn" onclick="goToPage(`map`)">
+              Request
             </div>
           </div>
 
