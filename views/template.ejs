@@ -19,28 +19,28 @@
       <div class="sidebar-links-div">
         <div class="link-div">
           <div class="sidebar-img-div">
-            <img src="./img/user.png" class="sidebar-img">
+            <img src="./img/user-white.png" class="sidebar-img">
           </div>
-          <a href="login.html">My Profile</a>
+          <a href="profile">My Profile</a>
         </div>
 
         <div class="link-div">
           <div class="sidebar-img-div">
-            <img src="./img/user.png" class="sidebar-img">
+            <img src="./img/user-white.png" class="sidebar-img">
           </div>
           <a href="dash.html">Notifications</a>
         </div>
 
         <div class="link-div">
           <div class="sidebar-img-div">
-            <img src="./img/user.png" class="sidebar-img">
+            <img src="./img/user-white.png" class="sidebar-img">
           </div>
           <a href="about.html">About Us</a>
         </div>
 
         <div class="link-div">
           <div class="sidebar-img-div">
-            <img src="./img/user.png" class="sidebar-img">
+            <img src="./img/user-white.png" class="sidebar-img">
           </div>
           <a href="contact.html">Contact Us</a>
         </div>
@@ -54,10 +54,10 @@
       <header class="header" id="header">
         <div class="top-bar">
           <div class="profile-pic">
-            <button class="profile-pic-btn" id="profile-pic-btn" ><img class="user-pic" src="./img/user-white.png"></button>
+            <button class="profile-pic-btn" id="profile-pic-btn" ><img class="user-pic" src="./img/white-blood.svg"></button>
           </div>
   
-          <div class="profile-info"></div>
+          <div class="profile-info">RaktKosh</div>
           
           <div class="nav-btn-div" onclick="openNav()">
             <a href="#" class="nav">
@@ -71,7 +71,7 @@
       </header>
       
       <main class="main-div">
-
+        
         <div id="myMap" class="myMap">
 
         </div>
@@ -80,9 +80,9 @@
   
       <footer class="footer" id="footer">
         <div class="bot-bar">
-          <button class="bot-btn" id="js-bot-btn1">Home</button>
-          <button class="bot-btn" id="js-bot-btn2">Donate</button>
-          <button class="bot-btn" id="js-bot-btn2">Request</button>
+          <button class="bot-btn" id="js-bot-btn1" onclick="goToPage(`temp`)">Home</button>
+          <button class="bot-btn" id="js-bot-btn2" onclick="goToPage(`map`)">Map</button>
+          <button class="bot-btn" id="js-bot-btn2" onclick="goToPage(`list`)">List</button>
         </div>
       </footer>
     </div>
@@ -92,18 +92,23 @@
 
       let width = window.matchMedia("(min-width: 700px)");
 
-        if(width.matches) {
-            document.getElementById("mySidebar").style.width = "250px";
-        }
-        else {
-            document.getElementById("mySidebar").style.width = "50vw";
-        }
+      if(width.matches) {
+          document.getElementById("mySidebar").style.width = "250px";
+      }
+      else {
+          document.getElementById("mySidebar").style.width = "50vw";
+      }
       }
 
       function closeNav() {
-        document.getElementById("mySidebar").style.width = "0";
+      document.getElementById("mySidebar").style.width = "0";
+      }
+
+      function goToPage(pname) {
+      location.replace(`${pname}`);
       }
     </script>
+
     <script type='text/javascript'
     src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=AgiYqPQ8XPpE8-jLEE-W3Xz6yTrYosqe8dCqIdEBL-oWBZ6VWUHYhxziThSZ2lbM' 
     async defer></script>
@@ -148,7 +153,5 @@
 
       }
       </script>
-
-
   </body>
 </html>

@@ -114,7 +114,7 @@ rrouter.post('/api/authCheck', (req,res)=>{
 
         if(flag==true){
             console.log(auth, "has logged in!");
-            res.redirect('/template');
+            res.redirect('/map');
         }else{
             res.render('index',{txt:'wrong username or password!'});
         }
