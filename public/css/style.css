@@ -14,7 +14,11 @@
     height: 100vh;
     width: 100vw;
 
-    background-color: #ffa1a1;
+    background-color: #C62C2C;
+
+    color: white;
+
+
 }
 
 .m_container {
@@ -45,11 +49,6 @@
 
     height: 100%;
     width: 80%;
-
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 10px;
-    border-color: black;
 
     padding: 2.5vw;
 }
@@ -86,27 +85,28 @@ label {
 
 input[type=text] {
     width: 100%;
-    padding: 0.5vh 0.5vh;
+    padding: 1.2vh;
     margin: 1vh 0;
     box-sizing: border-box;
-    border: 2px solid red;
-    border-radius: 2px;
+    border: 2px;
+    border-radius: 12px;
     font-size: 2vh;
 }
 
 input[type=password] {
     width: 100%;
-    padding: 0.5vh 0.5vh;
+    padding: 1.2vh;
     margin: 1vh 0;
     box-sizing: border-box;
-    border: 2px solid red;
-    border-radius: 2px;
+    border: 2px;
+    border-radius: 12px;
     font-size: 2vh;
 }
 
 input[type=button], input[type=submit], input[type=reset] {
-    background-color: #ff0000;
-    border: none;
+    background-color: #aa0000;
+    border: 2px;
+    border-radius: 12px;
     color: white;
     padding: 2vh 12vw;
     text-decoration: none;
@@ -121,9 +121,11 @@ input[type=button], input[type=submit], input[type=reset] {
 
   .l_container button{
     border: none;
+    border-radius: 12px;
     background-color: transparent;
     font-size: medium;
     text-shadow: black;
+    color: white;
   }
 
   .l_container button:hover {
@@ -133,6 +135,17 @@ input[type=button], input[type=submit], input[type=reset] {
   .myMap{
     width: 100%;
     height: 100%;
+  }
+
+  .locbut{
+    background-color: #aa0000;
+    border: 2px;
+    border-radius: 12px;
+    color: white;
+    padding: 2vh 12vw;
+    text-decoration: none;
+    margin: 4vh 2vh;
+    cursor: pointer;
   }
 
 
