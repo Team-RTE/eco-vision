@@ -176,15 +176,11 @@ body {
 .header{
     height: 10%;
     width: 100%;
-    position: fixed;
-    top: 0;
 }
 
 .footer {
     height: 8%;
     width: 100%;
-    position: fixed;
-    bottom: 0;
 }
 
 .top-bar {
@@ -386,8 +382,6 @@ body {
 }
 
 .main-div {
-    z-index: 0;
-    margin-top: 10vh;
     height: 82%;
     width: 100%;
     display: flex;
@@ -428,7 +422,7 @@ body {
     background-color: white;
     box-shadow: 1px 1px 8px rgb(0, 0, 0, 0.2);
     margin-bottom: 2%;
-    font-size: 6vw;    
+    font-size: 3.4vh;    
 }
 
 .home-img-div {
@@ -464,7 +458,7 @@ body {
     background-color: var(--main-theme-dark);
     border-radius: 10px;
     color: white;
-    font-size: 6vw;
+    font-size: 3.2vh;
 }
 
 .user-req-btn:hover {
