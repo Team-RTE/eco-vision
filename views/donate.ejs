@@ -48,13 +48,17 @@
 
     </div>
 
-    
+    <div class="website-blur" id="js-website-blur">
+    </div>
+   
     <div id="website-div" class="website-div">
       
       <header class="header" id="header">
         <div class="top-bar">
           <div class="profile-pic">
-            <button class="profile-pic-btn" id="profile-pic-btn" ><img class="user-pic" src="./img/white-blood.svg"></button>
+            <button class="profile-pic-btn" id="profile-pic-btn">
+              <img class="user-pic" src="./img/white-blood.svg">
+            </button>
           </div>
   
           <div class="profile-info">RaktKosh</div>
@@ -76,9 +80,26 @@
   
       <footer class="footer" id="footer">
         <div class="bot-bar">
-          <button class="bot-btn" id="js-bot-btn1" onclick="goToPage(`temp`)">Home</button>
-          <button class="bot-btn" id="js-bot-btn2" onclick="goToPage(`map`)">Map</button>
-          <button class="bot-btn" id="js-bot-btn2" onclick="goToPage(`list`)">List</button>
+          <button class="bot-btn" id="js-bot-btn1" onclick="goToPage(`temp`)">
+            <div class="bot-btn-icon-div">
+              <img class="bot-btn-icon home-icon" src="./img/homeicon.png">
+            </div> 
+            <p>Home</p>
+          </button>
+
+          <button class="bot-btn" id="js-bot-btn2" onclick="goToPage(`map`)">
+            <div class="bot-btn-icon-div">
+              <img class="bot-btn-icon map-icon" src="./img/mapicon.png">
+            </div> 
+            <p>Map</p>
+          </button>
+
+          <button class="bot-btn" id="js-bot-btn2" onclick="goToPage(`list`)">
+            <div class="bot-btn-icon-div">
+              <img class="bot-btn-icon list-icon" src="./img/listicon.png">
+            </div> 
+            <p>List</p>
+          </button>
         </div>
       </footer>
     </div>
@@ -86,22 +107,27 @@
     <script>
       function openNav() {
 
-      let width = window.matchMedia("(min-width: 700px)");
+        document.getElementById("js-website-blur").style.zIndex = "5";
 
-      if(width.matches) {
-          document.getElementById("mySidebar").style.width = "250px";
-      }
-      else {
-          document.getElementById("mySidebar").style.width = "50vw";
-      }
+        let width = window.matchMedia("(min-width: 700px)");
+
+        if(width.matches) {
+            document.getElementById("mySidebar").style.width = "250px";
+        }
+        else {
+            document.getElementById("mySidebar").style.width = "50vw";
+        }
       }
 
       function closeNav() {
-      document.getElementById("mySidebar").style.width = "0";
-      }
 
-      function goToPage(pname) {
-      location.replace(`${pname}`);
+        document.getElementById("js-website-blur").style.zIndex = "-1";
+
+        document.getElementById("mySidebar").style.width = "0";
+        }
+
+        function goToPage(pname) {
+        location.replace(`${pname}`);
       }
     </script>
 
